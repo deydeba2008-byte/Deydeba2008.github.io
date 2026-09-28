@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Debasish Dey - Web Developer, Programmer & Content Creator from Balasore. Skilled in Web Development, Programming, and Digital Content Creation.">
+    <meta name="keywords" content="Debasish Dey, web developer, programmer, content creator, Balasore, CSE">
+    <meta name="author" content="Debasish Dey">
+    <title>Debasish Dey - Web Developer & Content Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Debasish Dey</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Photo -->
+    <section id="about" class="hero">
+        <div class="container hero-content">
+            <div class="profile-photo-wrapper">
+                <img src="images/profile.jpg" alt="Debasish Dey" class="profile-photo">
+            </div>
+            <div class="hero-text">
+                <h2>Hi, I'm Debasish Dey</h2>
+                <p>Web Developer | Programmer | Content Creator</p>
+                <p class="location">📍 From Balasore | Studying CSE (Core)</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>Python, JavaScript, C++, Java</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Content Creation</h3>
+                <p>Instagram, Video Editing, Design</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <p>Git, GitHub, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p class="coming-soon">🚀 Projects coming soon...</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+            <div class="social-links">
+                <a href="https://github.com/deydeba2008-byte" target="_blank">GitHub</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="mailto:your.email@gmail.com">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Debasish Dey. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
